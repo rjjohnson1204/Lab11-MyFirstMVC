@@ -1,0 +1,38 @@
+﻿@model List<MyFirstMVC.Models.TimePerson>
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>Results Page</title>
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Results Page</h1>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Honor</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>BirthYear</th>
+                <th>DeathYear</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Context</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Year</td>
+                    <td>@item.Honor</td>
+                    <td>@item.Name</td>
+                    <td>@item.Country</td>
+                    <td>@item.BirthYear</td>
+                    <td>@item.DeathYear</td>
+                    <td>@item.Title</td>
+                    <td>@item.Category</td>
+                    <td>@item.Context</td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>
