@@ -18,10 +18,15 @@ namespace MyFirstMVC.Models
         public string Context { get; set; }
 
     }
-    public static GetPersons(string beginning, string end)
+    public static List<TimePerson> GetPersons(int startYear, int endYear)
     {
-        Beginning = beginning;
-        End = end;
+        List<TimePerson> people = new List<TimePerson>();
 
+        //finds file and reads it
+        string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../wwwroot/personOfTheYear.csv");
+
+        //use File.ReadAllLines (returns an array)
+        var personData = FileStyleUriParser.ReadAllLines(path).Skip(1);
     }
+
 }
