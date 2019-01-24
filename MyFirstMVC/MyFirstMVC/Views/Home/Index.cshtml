@@ -1,21 +1,23 @@
 ﻿<DOCTYPE html>
     <html>
     <head>
-        <title>HomePage!</title>
+        <title>Home Page</title>
         <link href="~/StyleSheet.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>People of the Year</h1>
+
+
+        <h1>People of the Year 1927 - 2016</h1>
         <form method="post">
-            <label name="firstYear">First Year</label>
-            <input name="firstYumber" type="number" />
-            <label name="secondYear">Second Year</label>
-            <input name="secondYear" type="number" />
-            <button type="submit">SUBMIT!</button>
+            <label name="startYear">Start Year</label>
+            <input min="1927" max="2016" name="startYear" type="number" />
+
+            <label name="endYear">End Year</label>
+            <input min="1927" max="2016" name="endYear" type="number" />
+
+            <button type="submit">Submit</button>
         </form>
-        <div class="img">
-            <img src=" holder " alt="Alternate Text" />
-        </div>
+        
 
     </body>
 </html>
