@@ -13,8 +13,8 @@ Display the persons of the year on a results page from the list of person from 1
 TBD
 
 ##Solution 
-
-used table to display query from user
+User makes a selection as to what years they would like to see displayed.
+A table will display query from user.
 
 ##Here is an image of what the game displays when there is a winner.
 
