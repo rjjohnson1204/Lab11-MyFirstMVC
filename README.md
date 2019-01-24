@@ -13,12 +13,14 @@ Display the persons of the year on a results page from the list of person from 1
 TBD
 
 ##Solution 
-
-
+User makes a selection as to what years they would like to see displayed.
+A table will display query from user.
 
 ##Here is an image of what the game displays when there is a winner.
 
-![....place holder....]( ...place holder...) 
+![input field](https://github.com/rjjohnson1204/Lab11-MyFirstMVC/blob/master/MyFirstMVC/Assets/input_fields.PNG) 
+![results]( https://github.com/rjjohnson1204/Lab11-MyFirstMVC/blob/master/MyFirstMVC/Assets/results.PNG) 
+
 
 Contributor : Deziree Teague
 
