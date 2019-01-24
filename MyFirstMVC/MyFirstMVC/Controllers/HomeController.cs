@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
 namespace MyFirstMVC.Controllers
 {
@@ -14,15 +15,15 @@ namespace MyFirstMVC.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Index(string firstName, string lastName)
+        public IActionResult Index(int startYear, int endYear)
         {
-            return RedirectToAction("Results", new { firstName, lastName });
+            return RedirectToAction("Results", new { startYear, endYear });
         }
 
-        public IActionResult Results(string begining, string end)
+        [HttpGet]
+        public IActionResult Results(int startYear, int endYear)
         {
-            Search result = new Search(beginning, end);
-            return View(result);
+            return View(TimePerson.GetPersons(startYear, endYear));
         }
     }
 
