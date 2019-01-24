@@ -48,8 +48,11 @@ namespace MyFirstMVC.Models
                     people.Add(tperson);
                 }
             }
-            
-       }
+            //create the full list of people from the csv file
+            //then to link query with lambda expression to filter
+            List<TimePerson> listofPeople = people.Where(p => (p.Year >= startYear) && (p.Year <= endYear)).ToList();
+            return listofPeople;
+        }
 
     }
 }
