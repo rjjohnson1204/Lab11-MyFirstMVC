@@ -1,0 +1,22 @@
+﻿
+body{
+    background-image: url("assets/spain.jpg");
+    opacity: 0.2;
+
+    background: red;
+}
+
+h1{
+    font-family: 'Adobe Arabic';
+    font-size: 6vw;
+    color: red;
+    text-align: center;
+   
+}
+
+h3 {
+    font-family: 'Adobe Arabic';
+    font-size: 2vw;
+    color: red;
+    text-align:center;
+}
