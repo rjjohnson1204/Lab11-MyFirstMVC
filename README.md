@@ -14,11 +14,13 @@ TBD
 
 ##Solution 
 
-
+used table to display query from user
 
 ##Here is an image of what the game displays when there is a winner.
 
-![....place holder....]( ...place holder...) 
+![input field](https://github.com/rjjohnson1204/Lab11-MyFirstMVC/blob/master/MyFirstMVC/Assets/input_fields.PNG) 
+![results]( https://github.com/rjjohnson1204/Lab11-MyFirstMVC/blob/master/MyFirstMVC/Assets/results.PNG) 
+
 
 Contributor : Deziree Teague
 
