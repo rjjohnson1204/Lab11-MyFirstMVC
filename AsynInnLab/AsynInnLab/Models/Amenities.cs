@@ -13,7 +13,7 @@ namespace AsynInnLab.Models
 
         //navigation properties
 
-        public RoomAmenities roomAmenities { get; set; }
+        public ICollection<RoomAmenities> roomAmenities { get; set; }
 
     }
 }

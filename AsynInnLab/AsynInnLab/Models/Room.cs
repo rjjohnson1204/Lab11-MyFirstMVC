@@ -14,8 +14,15 @@ namespace AsynInnLab.Models
 
         //navigation properties
 
-        public HotelRoom hotelRoom { get; set; }
-        public RoomAmenities roomAmenities { get; set; }
+        public ICollection<HotelRoom> HotelRoom { get; set; }
+        public ICollection<RoomAmenities> RoomAmenities { get; set; }
 
+    }
+
+    public enum Layout
+    {
+        Studio,
+        OneBedRoom,
+        TwoBedRoom
     }
 }
