@@ -13,6 +13,6 @@ namespace AsynInnLab.Models
         public string Phone { get; set; }
 
         //navigation properties 
-        public HotelRoom HotelRoom { get; set;}
+        public HotelRoom hotelRoom { get; set;}
     }
 }

@@ -7,5 +7,13 @@ namespace AsynInnLab.Models
 {
     public class Amenities
     {
+        public int ID { get; set; }
+        public string Name { get; set }
+
+
+        //navigation properties
+
+        public RoomAmenities roomAmenities { get; set; }
+
     }
 }

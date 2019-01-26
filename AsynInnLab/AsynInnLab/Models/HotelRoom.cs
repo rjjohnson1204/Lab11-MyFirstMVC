@@ -16,8 +16,8 @@ namespace AsynInnLab.Models
 
 
         // navigation property
-        public Hotel Hotel { get; set; }
-        public Room Room { get; set; }
+        public Hotel hotel { get; set; }
+        public Room room { get; set; }
     }
 
 }
